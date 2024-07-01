@@ -1,0 +1,1 @@
+console.log('cli',process.argv.slice(2));

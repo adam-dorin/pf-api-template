@@ -1,0 +1,33 @@
+{
+  "name": "pf-api-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 20.0.0"
+  },
+  "scripts": {
+    "nodemon": "nodemon",
+    "dev": "nodemon ./src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node cli/cli.js",
+    "build": "tsc -p tsconfig.json",
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "Dorin Adam",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "nodemon": "^3.1.4",
+    "prisma": "^5.16.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "pino-pretty": "^11.2.1"
+  }
+}
