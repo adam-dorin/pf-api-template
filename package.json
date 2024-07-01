@@ -11,14 +11,15 @@
     "dev": "nodemon ./src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "cli": "node cli/cli.js",
-    "build": "tsc -p tsconfig.json",
-    "start": "node src/app.js"
+    "build": "node cli/cli.js clean && tsc -p tsconfig.json && node cli/cli.js postbuild",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "Dorin Adam",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.14.9",
+    "commander": "^12.1.0",
     "nodemon": "^3.1.4",
     "prisma": "^5.16.1",
     "ts-node": "^10.9.2",

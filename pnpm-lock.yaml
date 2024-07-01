@@ -24,6 +24,9 @@ importers:
       '@types/node':
         specifier: ^20.14.9
         version: 20.14.9
+      commander:
+        specifier: ^12.1.0
+        version: 12.1.0
       nodemon:
         specifier: ^3.1.4
         version: 3.1.4
@@ -179,6 +182,10 @@ packages:
 
   colorette@2.0.20:
     resolution: {integrity: sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==, tarball: https://registry.npmjs.org/colorette/-/colorette-2.0.20.tgz}
+
+  commander@12.1.0:
+    resolution: {integrity: sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==, tarball: https://registry.npmjs.org/commander/-/commander-12.1.0.tgz}
+    engines: {node: '>=18'}
 
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==, tarball: https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz}
@@ -662,6 +669,8 @@ snapshots:
       fsevents: 2.3.3
 
   colorette@2.0.20: {}
+
+  commander@12.1.0: {}
 
   concat-map@0.0.1: {}
 
